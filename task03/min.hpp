@@ -3,7 +3,7 @@
 #include <iostream>
 
 template <typename T1, typename T2>
-T1 min(const T1 &thingA, const T2 &thingB)
+auto min(const T1 &thingA, const T2 &thingB)
 {
     if (thingA < thingB) {
         return thingA;
@@ -11,4 +11,5 @@ T1 min(const T1 &thingA, const T2 &thingB)
         return thingB;
     }
 }
+
 #endif
