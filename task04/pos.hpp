@@ -15,7 +15,7 @@ struct pos_3d {
     T z;
 };
 
-template<typename T>
+template <typename T>
 std::ostream &operator<<(std::ostream &os, const pos_2d<T> &rhs)
 {
     os << "(" << rhs.x << ", " << rhs.y << ")";
@@ -28,6 +28,5 @@ std::ostream &operator<<(std::ostream &os, const pos_3d<T> &rhs)
     os << "(" << rhs.x << ", " << rhs.y << ", " << rhs.z << ")";
     return os;
 }
-
 
 #endif
