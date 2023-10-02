@@ -4,7 +4,7 @@
 
 
 template<typename T1, typename T2>
-auto add_and_print(const T1 &thingA, const T2 &thingB)
+T1 add_and_print(const T1 &thingA, const T2 &thingB)
 {
 	std::cout << thingA + thingB << std::endl;
 
