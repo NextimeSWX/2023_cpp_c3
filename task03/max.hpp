@@ -3,7 +3,7 @@
 #include <iostream>
 
 template <typename T1, typename T2>
-auto max(const T1 &thingA, const T2 &thingB)
+T1 max(const T1 &thingA, const T2 &thingB)
 {
     if (thingA >= thingB) {
         return thingA;
