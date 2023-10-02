@@ -2,9 +2,9 @@
 #include <iostream>
 #include <string>
 
-void hello(std::string std)
+void hello(std::string str)
 {
-    std::cout << "Hello" << std << "!\n";
+    std::cout << "Hello" << str << "!\n";
 }
 
 void hello()
