@@ -40,5 +40,5 @@ void hello(std::string str)
 
 void hello()
 {
-    std::cout << "Hello strangers ! ";
+    std::cout << "Hello strangers !\n";
 }
